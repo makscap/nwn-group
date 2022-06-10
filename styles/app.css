@@ -13,3 +13,27 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 50%;
 }
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("../assets/fonts/WorkSans/WorkSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url("../assets/fonts/WorkSans/WorkSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../assets/fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../assets/fonts/OpenSans/OpenSans-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
