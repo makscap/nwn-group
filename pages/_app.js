@@ -1,5 +1,5 @@
-import "../styles/normalize.css";
-import "../styles/app.css";
+import "./styles/normalize.css";
+import "./styles/app.css";
 import Layout from "../components/Layout";
 
 export default function App({ Component, pageProps }) {

@@ -6,7 +6,7 @@ export default function Home() {
       <Head>
         <title>NWN Group</title>
         <link rel="icon" href="/favicon.svg" />
-        <link href="../pages/styles/normalize.css" rel="stylesheet" />
+        {/* <link href="../pages/styles/normalize.css" rel="stylesheet" /> */}
       </Head>
 
       {/* <p>I'm index.js</p> */}

@@ -5,10 +5,15 @@ const Header = () => {
     <header className="container">
       <nav className={s.navigation}>
         <div className={s.logoBox}>
-          <a>
-            <img src="/logo.svg" alt="logo" width="98.9px" height="32.67px" />
+          <a href="/" className={s.logoLink}>
+            <img
+              src="/logo.svg"
+              alt="logo"
+              width="166px"
+              height="70px"
+              className={s.logoImg}
+            />
           </a>
-          <p>NWN Group</p>
         </div>
         <ul className={s.contactsNav}>
           <li className={s.contactsItem}>
