@@ -5,6 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
 }
 
 .logoText {
@@ -61,4 +63,29 @@
 .contactsLink {
   color: #ffffff;
   text-decoration: none;
+}
+
+@media screen and (max-width: 428px) {
+  .contactsNav {
+    display: none;
+  }
+
+  .logoBox {
+    width: 132px;
+    height: 88px;
+  }
+
+  .logoImg {
+    width: 85px;
+    height: 56px;
+  }
+
+  .navigation {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 104px;
+  }
 }

@@ -101,3 +101,50 @@
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 428px) {
+  .footer {
+    font-family: "OpenSans", sans-serif;
+    width: 100%;
+    height: auto;
+    background-color: #09192d;
+    padding: 40px 0px;
+  }
+
+  .copyrightGroup {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+  }
+
+  .copyrightList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-bottom: 56px;
+  }
+
+  .copyrightItem {
+    margin: 0px;
+    margin-bottom: 32px;
+  }
+
+  .copyrightItem:last-child {
+    margin-bottom: 0px;
+  }
+
+  .copyrText {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+  }
+}

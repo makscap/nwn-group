@@ -6,7 +6,7 @@ const Contacts = () => {
       <div className="container">
         <p className={s.title}>CONTACT</p>
         <div className={s.contactsGroup}>
-          <div>
+          <div className={s.group}>
             <p className={s.titleGroup}>NWN Group s.r.o.</p>
             <ul className={s.list}>
               <li className={s.item}>Koněvova 1965/208</li>
@@ -14,7 +14,7 @@ const Contacts = () => {
               <li className={s.item}>Czech Republic</li>
             </ul>
           </div>
-          <div>
+          <div className={s.group}>
             <p className={s.titleGroup}>NWN Investments s.r.o.</p>
             <ul className={s.list}>
               <li className={s.item}>Palisády 33</li>
