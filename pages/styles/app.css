@@ -7,7 +7,7 @@
   margin-right: auto;
 }
 
-/* @media screen and (max-width: 1024px) { */
+/* @media screen and (max-width: 1439px) { */
 body {
   font-family: "WorkSans", sans-serif;
   /* background-image: url("/background-min.jpg"); */
@@ -20,7 +20,7 @@ body {
 }
 /* } */
 
-@media screen and (min-width: 1440) {
+@media screen and (min-width: 1440px) {
   body {
     font-family: "WorkSans", sans-serif;
     /* background-image: url("/background-min.jpg"); */
