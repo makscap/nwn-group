@@ -7,25 +7,33 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 428px) {
-  .container {
-    /* min-height: 100vh; */
-    max-width: 1440px;
-    padding-left: 32px;
-    padding-right: 32px;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (max-width: 1024px) {
+  body {
+    font-family: "WorkSans", sans-serif;
+    /* background-image: url("/background-min.jpg"); */
+    background: url("/background-min.jpg") no-repeat top center;
+    /* background-repeat: no-repeat; */
+    /* background-position: 50% 50%; */
+    background-size: auto 50%, contain;
+    background-color: #0c233d;
+    /* background-attachment: fixed; */
   }
 }
 
-body {
-  font-family: "WorkSans", sans-serif;
-  background-image: url("/background-min.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 50%, contain;
-  /* background-size: contain, cover; */
-  background-color: #0c233d;
-  /* background-attachment: fixed; */
+@media screen and (min-width: 1025px) {
+  body {
+    font-family: "WorkSans", sans-serif;
+    /* background-image: url("/background-min.jpg"); */
+    background: url("/background-min.jpg") no-repeat top center;
+    /* background-repeat: no-repeat; */
+    /* background-position: 50% 50%; */
+    background-size: 100% 50%, cover;
+    background-color: #0c233d;
+    /* background-attachment: fixed; */
+  }
+}
+
+@media screen and (max-width: 480px) {
 }
 
 @font-face {
