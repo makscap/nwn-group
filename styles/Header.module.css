@@ -65,7 +65,7 @@
   text-decoration: none;
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 479px) {
   .contactsNav {
     display: none;
   }
@@ -88,4 +88,74 @@
     display: flex;
     margin-bottom: 104px;
   }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .contactsNav {
+    display: none;
+  }
+
+  .logoBox {
+    width: 132px;
+    height: 88px;
+  }
+
+  .logoImg {
+    width: 85px;
+    height: 56px;
+  }
+
+  .navigation {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 104px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .logoBox {
+    width: 166px;
+    height: 106px;
+  }
+
+  .logoImg {
+    width: 106px;
+    height: 70px;
+  }
+
+  .navigation {
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-bottom: 104px;
+  }
+
+  .contactsNav {
+    font-family: "WorkSans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    margin-top: 60px;
+  }
+
+  .contactsItem {
+    margin-right: 48px;
+  }
+  .contactsItem:last-child {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
 }

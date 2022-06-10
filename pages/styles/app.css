@@ -7,33 +7,73 @@
   margin-right: auto;
 }
 
-/* @media screen and (max-width: 1439px) { */
 body {
   font-family: "WorkSans", sans-serif;
-  /* background-image: url("/background-min.jpg"); */
   background: url("/background-min.jpg") no-repeat top center;
-  /* background-repeat: no-repeat; */
-  /* background-position: 50% 50%; */
   background-size: auto 50%, contain;
   background-color: #0c233d;
-  /* background-attachment: fixed; */
 }
-/* } */
 
-@media screen and (min-width: 1440px) {
-  body {
-    font-family: "WorkSans", sans-serif;
-    /* background-image: url("/background-min.jpg"); */
-    background: url("/background-min.jpg") no-repeat top center;
-    /* background-repeat: no-repeat; */
-    /* background-position: 50% 50%; */
-    background-size: 100% 50%, cover;
-    background-color: #0c233d;
-    /* background-attachment: fixed; */
+@media screen and (max-width: 479px) {
+  .container {
+    /* min-height: 100vh; */
+    max-width: 1440px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    /* min-height: 100vh; */
+    max-width: 1440px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    /* min-height: 100vh; */
+    max-width: 1440px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .container {
+    /* min-height: 100vh; */
+    max-width: 1440px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    /* min-height: 100vh; */
+    max-width: 1440px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    font-family: "WorkSans", sans-serif;
+    background: url("/background-min.jpg") no-repeat top center;
+    background-size: 100% 50%, cover;
+    background-color: #0c233d;
+  }
 }
 
 @font-face {
