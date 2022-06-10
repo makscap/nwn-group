@@ -22,7 +22,8 @@ body {
   font-family: "WorkSans", sans-serif;
   background-image: url("/background-min.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 50%;
+  background-size: 100% 50%, contain;
+  /* background-size: contain, cover; */
   background-color: #0c233d;
   /* background-attachment: fixed; */
 }
