@@ -20,14 +20,14 @@
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1440) {
   body {
     font-family: "WorkSans", sans-serif;
     /* background-image: url("/background-min.jpg"); */
     background: url("/background-min.jpg") no-repeat top center;
     /* background-repeat: no-repeat; */
     /* background-position: 50% 50%; */
-    background-size: 100% 50%, cover;
+    background-size: auto 50%, contain;
     background-color: #0c233d;
     /* background-attachment: fixed; */
   }
