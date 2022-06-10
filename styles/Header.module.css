@@ -1,0 +1,41 @@
+.logoBox {
+  width: 166px;
+  height: 106px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  margin-bottom: 118px;
+}
+
+.contactsNav {
+  font-family: "WorkSans", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 800;
+}
+
+.contactsItem {
+  margin-right: 56px;
+}
+.contactsItem:last-child {
+  margin-right: 0px;
+}
+
+.contactsLink {
+  color: #ffffff;
+  text-decoration: none;
+}

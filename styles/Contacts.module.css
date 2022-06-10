@@ -1,0 +1,70 @@
+.contacts {
+  max-width: 100%;
+  margin-bottom: 96px;
+}
+
+.contactsGroup {
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.title {
+  color: #2de7d0;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.titleGroup {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.list {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  font-size: 24px;
+  line-height: 36px;
+  padding: 0;
+  margin: 0;
+}
+
+.item:last-child {
+  margin-bottom: 0px;
+}
+
+.linkParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkGroup {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links {
+  font-weight: 800;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.linkGroup > .item:first-child {
+  margin-bottom: 24px;
+}

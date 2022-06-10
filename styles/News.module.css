@@ -1,0 +1,96 @@
+.hero {
+  padding: 0;
+  margin: 0;
+  /* margin-top: 118px; */
+}
+
+.heroLabel {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  color: #2de7d0;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.heroTitle {
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+  /* margin-top: 24px; */
+  font-size: 64px;
+  line-height: 76px;
+  color: #ffffff;
+}
+
+.news {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  padding: 80px;
+  background-color: #0d2847;
+  margin-bottom: 88px;
+}
+
+/* .newsTitleAndLogo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+.newsTitleAndLogo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.newLabel {
+  color: #2de7d0;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+.newTitle {
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.text {
+  font-family: "OpenSans", sans-serif;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.arrowParent {
+  height: 104px;
+  display: flex;
+  justify-content: flex-end;
+}
+.arrow {
+  width: 28px;
+  height: 66px;
+  animation-name: arrowGo;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arrowGo {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+}
