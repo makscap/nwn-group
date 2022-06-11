@@ -8,7 +8,7 @@ export default function Home() {
         {/* <link href="../pages/styles/normalize.css" rel="stylesheet" /> */}
         {/* <meta name="viewport" content="initial-scale=1.0, width=device-width" /> */}
 
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="revisit-after" content="2 days" />
         <title>NWN Group</title>
